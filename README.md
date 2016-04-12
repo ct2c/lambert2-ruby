@@ -1,5 +1,5 @@
 # lambert2_ruby
-Converts GPS coordinates into Lambert 2 coordinates
+Converts GPS coordinates into Lambert 93 coordinates
 
 # Install
 ```
