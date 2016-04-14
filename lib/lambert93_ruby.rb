@@ -1,5 +1,5 @@
 # -*- encoding : utf-8 -*-
-module Lambert2Ruby
+module Lambert93Ruby
 
   def self.lambert_proj(lat, long)
     if lat.nil? || long.nil?

@@ -1,10 +1,10 @@
-# lambert2_ruby
+# lambert93_ruby
 Converts GPS coordinates into Lambert 93 coordinates
 
 # Install
 ```
 # In  your gemfile
-gem "lambert2_ruby"
+gem "lambert93_ruby"
 ```
 And run
 ```
@@ -13,12 +13,12 @@ bundle install
 
 # Usage
 ```
-require "lambert2_ruby"
+require "lambert93_ruby"
 
 lat  = 44.884566             # gps_latitude
 long = -0.2846110000000408   # gps_longitude
 
-Lambert2Ruby::lambert_proj(lat, long)
+Lambert93Ruby::lambert_proj(lat, long)
 ```
 
-It will give you an array with lambert2 coordinates [x, y].
+It will give you an array with lambert93 coordinates [x, y].
